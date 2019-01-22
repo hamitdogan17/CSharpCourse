@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47137089-D53B-460E-8F14-A4E9054F6333}</ProjectGuid>
+    <ProjectGuid>{DA5A066E-18CF-48D7-9223-854A480B26C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RecapDemoSoyutlama</RootNamespace>
-    <AssemblyName>RecapDemoSoyutlama</AssemblyName>
+    <RootNamespace>Collections</RootNamespace>
+    <AssemblyName>Collections</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Soyutlama.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

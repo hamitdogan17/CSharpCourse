@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "Interface
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemoSoyutlama", "RecapDemoSoyutlama\RecapDemoSoyutlama.csproj", "{47137089-D53B-460E-8F14-A4E9054F6333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{C534BD66-663B-451C-B2B3-46DB727E64C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{47137089-D53B-460E-8F14-A4E9054F6333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47137089-D53B-460E-8F14-A4E9054F6333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47137089-D53B-460E-8F14-A4E9054F6333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C534BD66-663B-451C-B2B3-46DB727E64C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C534BD66-663B-451C-B2B3-46DB727E64C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C534BD66-663B-451C-B2B3-46DB727E64C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C534BD66-663B-451C-B2B3-46DB727E64C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
