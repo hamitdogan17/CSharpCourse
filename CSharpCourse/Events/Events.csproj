@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C534BD66-663B-451C-B2B3-46DB727E64C4}</ProjectGuid>
+    <ProjectGuid>{A2607DBB-64BF-4AED-8308-5CC8711F50B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ReferenceAndValueType</RootNamespace>
-    <AssemblyName>ReferenceAndValueType</AssemblyName>
+    <RootNamespace>Events</RootNamespace>
+    <AssemblyName>Events</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RecordNotFoundException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

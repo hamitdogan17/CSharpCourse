@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C534BD66-663B-451C-B2B3-46DB727E64C4}</ProjectGuid>
+    <ProjectGuid>{4671DCC7-695F-40B5-80FB-E35858DD5B72}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ReferenceAndValueType</RootNamespace>
-    <AssemblyName>ReferenceAndValueType</AssemblyName>
+    <RootNamespace>Reflection</RootNamespace>
+    <AssemblyName>Reflection</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RecordNotFoundException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
